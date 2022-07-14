@@ -1,0 +1,97 @@
+body{
+  margin:0;
+  background-color: hsl(0, 0%, 95%);
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  /* font-size: 15px; */
+}
+
+h1{
+  color:hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: .1rem;
+
+}
+p{
+  line-height: 1.8;
+}
+
+
+.container{
+  background-color:hsl(0, 0%, 95%);
+  height: 500px;
+  width: 900px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -450px;
+  margin-top: -250px;
+}
+
+.left{
+  background-color:hsl(31, 77%, 52%);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.mid{
+  background-color:hsl(184, 100%, 22%);
+}
+
+.right{
+  background-color:hsl(179, 100%, 13%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.card{
+  width: 300px;
+  height: 500px;
+  display: inline-block;
+
+}
+.icon{
+  padding:50px 40px 0 40px;
+}
+.text{
+  padding: 0 35px 0 40px;
+  color:hsla(0, 0%, 100%, 0.75);
+}
+
+.btn {
+  margin-top: 50px;
+  border-radius: 28px;
+  display: inline-block;
+  background-color: hsl(0, 0%, 95%);
+  text-align: center;
+  padding: 17px 35px;
+  line-height: normal;
+}
+
+.btn:hover{
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(179, 100%, 13%);
+  border: solid 2px hsl(0, 0%, 95%);
+  padding: 15px 33px;
+}
+
+.btn-left{
+  color: hsl(31, 77%, 52%);
+}
+.btn-left:hover{
+  background-color: hsl(31, 77%, 52%);
+}
+.btn-mid{
+  color: hsl(184, 100%, 22%);
+}
+.btn-mid:hover{
+  background-color: hsl(184, 100%, 22%);
+}
+.btn-right{
+  color: hsl(179, 100%, 13%);
+}
+.btn-right:hover{
+  background-color: hsl(179, 100%, 13%);
+}
